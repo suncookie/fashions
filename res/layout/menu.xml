@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    tools:context=".ActMainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_me" />
+
+        <Button
+            android:id="@+id/focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_focus" />
+
+        <Button
+            android:id="@+id/closefashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_closefashion" />
+
+        <Button
+            android:id="@+id/allfashions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_allfashions" />
+
+        <Button
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_message" />
+
+        <Button
+            android:id="@+id/fashionshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/menu_fashionshop" />
+    </LinearLayout>
+
+</ScrollView>
