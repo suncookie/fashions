@@ -58,7 +58,7 @@ public class FashionView extends ContentBaseClass {
 		if(mFlag == FLAG_CLOSE_FASHION){
 			final YoungJSonBeanCloseFashionRequest bean = new YoungJSonBeanCloseFashionRequest();
 			bean.pageCount = 0;
-			bean.pageIndex = 1;
+			bean.pageIndex = 1;  /////
 			if(mHttpManager == null){
 				mHttpManager = new YoungHttpCloseFashionManager();
 				mHttpManager.setCallBack(new YoungHttpCallbackAPI() {
